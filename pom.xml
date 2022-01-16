@@ -152,6 +152,7 @@
                         <version>${native-buildtools.version}</version>
                         <configuration>
                             <buildArgs>
+                                -H:ReflectionConfigurationFiles=${project.basedir}/native-config/druid/reflect-config.json
                             </buildArgs>
                         </configuration>
                         <executions>

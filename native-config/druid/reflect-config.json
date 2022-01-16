@@ -1,0 +1,60 @@
+[
+  {
+    "name": "com.alibaba.druid.pool.DruidDataSource",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setUrl",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setDriverClassName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setPassword",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setUsername",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },{
+  "name": "com.alibaba.druid.pool.DruidAbstractDataSource",
+  "methods": [
+    {
+      "name": "setUrl",
+      "parameterTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "name": "setPassword",
+      "parameterTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "name": "setUsername",
+      "parameterTypes": [
+        "java.lang.String"
+      ]
+    }
+  ]
+},
+  {
+    "name": "org.h2.Driver"
+  }
+]
